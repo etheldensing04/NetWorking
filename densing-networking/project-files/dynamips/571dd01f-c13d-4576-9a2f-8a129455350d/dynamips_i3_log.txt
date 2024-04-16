@@ -1,0 +1,43 @@
+Mar 19 10:55:19.478 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 19 10:55:19.478 HYPERVISOR: Started on IP = localhost, TCP port = 50043.
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips 
+Mar 19 10:55:19.493 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\662c7423-a190-43b6-b461-b54b3c6f60ab 
+Mar 19 10:55:19.493 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\662c7423-a190-43b6-b461-b54b3c6f60ab
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm create PC1 2 c3600 
+Mar 19 10:55:19.493 VM: VM PC1 created.
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_con_tcp_port PC1 5002 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: c3600 get_mac_addr PC1 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: c3600 set_chassis PC1 3660 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_exec_area PC1 64 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_idle_pc PC1 0x606071f8 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_ios PC1 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: c3600 set_mac_addr PC1 cc02.36e8.0000 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_nvram PC1 256 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm set_ram PC1 192 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 10:55:19.493 HYPERVISOR: exec_cmd: vm slot_add_binding PC1 1 0 NM-4T 
+Mar 19 10:55:19.540 HYPERVISOR: exec_cmd: nio create_udp udp-6b66849e-fb0f-4129-8365-e4a29525595f 10002 127.0.0.1 10003 
+Mar 19 10:55:19.790 HYPERVISOR: exec_cmd: vm slot_add_nio_binding PC1 0 0 udp-6b66849e-fb0f-4129-8365-e4a29525595f 
+Mar 19 10:55:19.790 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 10:55:29.675 HYPERVISOR: exec_cmd: vm set_ghost_status PC1 2 
+Mar 19 10:55:29.690 HYPERVISOR: exec_cmd: vm set_ghost_file PC1 C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\c3660-jk9o3s-mz.124-25d.image-192.ghost 
+Mar 19 10:55:29.690 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 10:55:29.690 HYPERVISOR: exec_cmd: vm set_config PC1 configs\i2_startup-config.cfg 
+Mar 19 10:55:29.690 HYPERVISOR: exec_cmd: vm start PC1 
+Mar 19 10:57:59.953 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Mar 19 10:59:59.956 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Mar 19 11:57:00.113 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Mar 19 12:05:54.560 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 12:05:54.560 HYPERVISOR: exec_cmd: vm stop PC1 
+Mar 19 12:05:54.648 VM: VM PC1 shutdown.
+Mar 19 12:05:54.652 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Mar 19 12:05:55.172 HYPERVISOR: exec_cmd: vm get_status PC1 
+Mar 19 12:05:55.173 HYPERVISOR: exec_cmd: vm extract_config PC1 
+Mar 19 12:05:55.173 HYPERVISOR: exec_cmd: vm delete PC1 
+Mar 19 12:05:55.173 VM: VM PC1 destroyed.
+Mar 19 12:05:55.174 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 19 12:05:55.384 HYPERVISOR: Stopped.
+Mar 19 12:05:55.384 GENERAL: reset done.

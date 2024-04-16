@@ -1,0 +1,19 @@
+Mar 19 10:55:18.947 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 19 10:55:18.947 HYPERVISOR: Started on IP = localhost, TCP port = 50040.
+Mar 19 10:55:19.462 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 19 10:55:19.462 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips 
+Mar 19 10:55:19.462 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips
+Mar 19 10:55:19.462 HYPERVISOR: exec_cmd: ethsw create S 
+Mar 19 10:55:19.790 HYPERVISOR: exec_cmd: nio create_udp udp-2200df90-1828-48e9-ab6a-e946fabf6383 10001 127.0.0.1 10000 
+Mar 19 10:55:19.790 HYPERVISOR: exec_cmd: ethsw add_nio S udp-2200df90-1828-48e9-ab6a-e946fabf6383 
+Mar 19 10:55:19.822 HYPERVISOR: exec_cmd: ethsw set_access_port S udp-2200df90-1828-48e9-ab6a-e946fabf6383 1 
+Mar 19 10:55:19.837 HYPERVISOR: exec_cmd: nio create_udp udp-ba0881e9-1240-45fe-8941-394867b0b618 10004 127.0.0.1 10005 
+Mar 19 10:55:19.837 HYPERVISOR: exec_cmd: ethsw add_nio S udp-ba0881e9-1240-45fe-8941-394867b0b618 
+Mar 19 10:55:19.853 HYPERVISOR: exec_cmd: ethsw set_access_port S udp-ba0881e9-1240-45fe-8941-394867b0b618 1 
+Mar 19 10:55:20.103 HYPERVISOR: exec_cmd: nio create_udp udp-e55000c1-f1c6-4986-9034-3f2590a278da 10008 127.0.0.1 10009 
+Mar 19 10:55:20.103 HYPERVISOR: exec_cmd: ethsw add_nio S udp-e55000c1-f1c6-4986-9034-3f2590a278da 
+Mar 19 10:55:20.134 HYPERVISOR: exec_cmd: ethsw set_access_port S udp-e55000c1-f1c6-4986-9034-3f2590a278da 1 
+Mar 19 12:05:54.660 HYPERVISOR: exec_cmd: ethsw delete S 
+Mar 19 12:05:54.719 HYPERVISOR: exec_cmd: hypervisor stop 
+Mar 19 12:05:54.870 HYPERVISOR: Stopped.
+Mar 19 12:05:54.870 GENERAL: reset done.

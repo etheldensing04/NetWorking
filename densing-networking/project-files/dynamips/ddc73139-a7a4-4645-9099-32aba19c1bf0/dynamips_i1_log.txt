@@ -1,0 +1,45 @@
+Mar 19 10:07:26.706 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Mar 19 10:07:26.707 HYPERVISOR: Started on IP = localhost, TCP port = 50324.
+Mar 19 10:07:27.001 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 19 10:07:27.001 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips 
+Mar 19 10:07:27.005 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips
+Mar 19 10:07:27.005 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\ddc73139-a7a4-4645-9099-32aba19c1bf0 
+Mar 19 10:07:27.006 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\ddc73139-a7a4-4645-9099-32aba19c1bf0
+Mar 19 10:07:27.006 HYPERVISOR: exec_cmd: vm create R1 1 c3600 
+Mar 19 10:07:27.006 VM: VM R1 created.
+Mar 19 10:07:27.006 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Mar 19 10:07:27.006 HYPERVISOR: exec_cmd: c3600 get_mac_addr R1 
+Mar 19 10:07:27.006 HYPERVISOR: exec_cmd: c3600 set_chassis R1 3660 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x606071f8 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm set_ram R1 192 
+Mar 19 10:07:27.007 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Mar 19 10:07:27.008 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:07:27.008 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-4T 
+Mar 19 10:07:27.039 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:10:55.285 HYPERVISOR: exec_cmd: nio create_udp udp-b71234f3-6e4d-4ce4-8bdc-63ef1c547df3 10010 127.0.0.1 10011 
+Mar 19 10:10:55.495 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-b71234f3-6e4d-4ce4-8bdc-63ef1c547df3 
+Mar 19 10:10:55.495 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:10:59.650 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:12:09.231 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:12:09.232 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 19 10:12:16.093 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Mar 19 10:12:16.095 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\c3660-jk9o3s-mz.124-25d.image-192.ghost 
+Mar 19 10:12:16.095 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:12:16.098 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Mar 19 10:12:16.098 HYPERVISOR: exec_cmd: vm start R1 
+Mar 19 10:12:46.396 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 19 10:13:11.384 HYPERVISOR: exec_cmd: vm get_status R1 
+Mar 19 10:13:11.385 HYPERVISOR: exec_cmd: vm stop R1 
+Mar 19 10:13:11.497 VM: VM R1 shutdown.
+Mar 19 10:13:11.498 HYPERVISOR: exec_cmd: vm extract_config R1 
+Mar 19 10:13:45.108 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:13:45.108 HYPERVISOR: exec_cmd: vm rename R1 R 
+Mar 19 10:13:45.140 HYPERVISOR: exec_cmd: vm set_ios R C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Mar 19 10:17:22.096 HYPERVISOR: exec_cmd: vm set_ghost_status R 2 
+Mar 19 10:17:22.098 HYPERVISOR: exec_cmd: vm set_ghost_file R C:\Users\FOR CLONE\Desktop\densing-networking\project-files\dynamips\c3660-jk9o3s-mz.124-25d.image-192.ghost 
+Mar 19 10:17:22.098 HYPERVISOR: exec_cmd: vm get_status R 
+Mar 19 10:17:22.100 HYPERVISOR: exec_cmd: vm set_config R configs\i1_startup-config.cfg 
+Mar 19 10:17:22.101 HYPERVISOR: exec_cmd: vm start R 
