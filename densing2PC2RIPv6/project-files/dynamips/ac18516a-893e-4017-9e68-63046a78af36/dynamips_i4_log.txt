@@ -1,0 +1,30 @@
+Apr 23 10:13:24.164 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 23 10:13:24.164 HYPERVISOR: Started on IP = localhost, TCP port = 49978.
+Apr 23 10:13:24.662 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 23 10:13:24.662 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\ayaw delete. networking\densing2PC2RIPv6\project-files\dynamips 
+Apr 23 10:13:24.662 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\ayaw delete. networking\densing2PC2RIPv6\project-files\dynamips
+Apr 23 10:13:24.662 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\FOR CLONE\Desktop\ayaw delete. networking\densing2PC2RIPv6\project-files\dynamips\ac18516a-893e-4017-9e68-63046a78af36 
+Apr 23 10:13:24.663 GENERAL: working_dir=C:\Users\FOR CLONE\Desktop\ayaw delete. networking\densing2PC2RIPv6\project-files\dynamips\ac18516a-893e-4017-9e68-63046a78af36
+Apr 23 10:13:24.663 HYPERVISOR: exec_cmd: vm create R4 4 c3600 
+Apr 23 10:13:24.664 VM: VM R4 created.
+Apr 23 10:13:24.664 HYPERVISOR: exec_cmd: vm set_con_tcp_port R4 5003 
+Apr 23 10:13:24.664 HYPERVISOR: exec_cmd: c3600 get_mac_addr R4 
+Apr 23 10:13:24.664 HYPERVISOR: exec_cmd: c3600 set_chassis R4 3660 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm set_idle_pc R4 0x606071f8 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm set_exec_area R4 64 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm set_ram R4 192 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm set_nvram R4 256 
+Apr 23 10:13:24.665 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 23 10:13:24.666 HYPERVISOR: exec_cmd: vm slot_add_binding R4 1 0 NM-4T 
+Apr 23 10:13:24.699 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:13:30.719 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:13:36.006 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:13:49.062 HYPERVISOR: exec_cmd: nio create_udp udp-ea7e79b6-e299-4e15-b9fc-07b18706dfb3 10016 127.0.0.1 10017 
+Apr 23 10:13:49.290 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R4 0 0 udp-ea7e79b6-e299-4e15-b9fc-07b18706dfb3 
+Apr 23 10:13:49.290 HYPERVISOR: exec_cmd: vm get_status R4 
+Apr 23 10:14:10.028 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:32:54.016 HYPERVISOR: exec_cmd: vm set_ios R4 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
+Apr 23 10:32:54.017 HYPERVISOR: exec_cmd: vm rename R4 PC2 
+Apr 23 10:32:54.049 HYPERVISOR: exec_cmd: vm set_ios PC2 C:/Users/FOR CLONE/GNS3/images/IOS/c3660-jk9o3s-mz.124-25d.image 
